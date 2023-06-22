@@ -1,8 +1,8 @@
 # Intuition
 Method 1. 透過 HashMap 儲存 `nums 的個別元素` (`map[元素]index`)・再透過迴圈尋找符合條件的 target
 
-(公式)
-Method 2. 先將陣列裡頭元素進行`排序`，再使用 `Two Pointer 方式`查找
+
+Method 2. (公式) 先將陣列裡頭元素進行`排序`，再使用 `Two Pointer 方式`查找
 <!-- Describe your first thoughts on how to solve this problem. -->
 
 # Approach
@@ -23,7 +23,7 @@ Method 2. 先將陣列裡頭元素進行`排序`，再使用 `Two Pointer 方式
 <!-- Add your space complexity here, e.g. $$O(n)$$ -->
 
 # Code
-```
+```go
 func twoSum(nums []int, target int) []int {
 	// Method 1.
 	// _map := make(map[int]int)
