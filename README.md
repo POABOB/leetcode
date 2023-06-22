@@ -5,7 +5,8 @@
 | No.    |  Title  |  Solution  |  Acceptance |  Difficulty |  Frequency |
 |:--------:|:--------------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
 |0001|Two Sum|[Go](https://github.com/POABOB/leetcode/tree/main/0001.%20Two%20Sum)|50.1%|Easy||
-|15|3Sum|[Go](https://github.com/POABOB/leetcode/tree/main/0015.%203Sum)|32.8%|Medium||
+|0015|3Sum|[Go](https://github.com/POABOB/leetcode/tree/main/0015.%203Sum)|32.8%|Medium||
+|0018|4Sum||[Go](https://github.com/POABOB/leetcode/tree/main/0018.%204Sum)|36.5%|Medium||
 |0167|Two Sum II - Input Array Is Sorted|[Go](https://github.com/POABOB/leetcode/tree/main/0167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted)|60.0%|Medium||
 
 ## 解法公式
