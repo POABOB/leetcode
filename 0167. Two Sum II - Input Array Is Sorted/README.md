@@ -24,6 +24,8 @@
 
 # Code
 ```go
+package leetcode
+
 func twoSum(numbers []int, target int) []int {
 	// Method 1.
 	// _map := make(map[int]int)

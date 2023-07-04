@@ -37,6 +37,10 @@
 
 # Code
 ```go
+package leetcode
+
+import "sort"
+
 func threeSum(nums []int) [][]int {
 	// Method 1. Two Pointer (最優解)
 	sort.Ints(nums)

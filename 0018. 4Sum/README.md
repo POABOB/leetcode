@@ -32,6 +32,10 @@
 
 # Code
 ```go
+package leetcode
+
+import "sort"
+
 func fourSum(nums []int, target int) [][]int {
 	// Method 1.
 	result, n := make([][]int, 0), len(nums)

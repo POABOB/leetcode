@@ -40,6 +40,8 @@
 
 # Code
 ```go
+package leetcode
+
 func numTrees(n int) int {
 	// Method 1. 使用 for loop + HashMap 來解決
 	// dp := make([]int, n+1)
