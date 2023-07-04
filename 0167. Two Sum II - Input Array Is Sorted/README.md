@@ -1,11 +1,11 @@
 # Intuition
-Method 1. 透過 HashMap 儲存 `numbers 的個別元素` (`map[元素]index`)・再透過迴圈尋找符合條件的 target
+這題就是 [`0001. Two Sum`](https://github.com/POABOB/leetcode/tree/main/0015.%203Sum) 的 `取index` 版本，強迫你使用 `二元搜尋` 來做。
 
-
-Method 2. (公式) 使用 `Two Pointer 方式`查找
 <!-- Describe your first thoughts on how to solve this problem. -->
 
 # Approach
+- `Method 1.` 透過 HashMap 儲存 `numbers 的個別元素` (`map[元素]index`)・再透過迴圈尋找符合條件的 target
+- `Method 2.` (公式) 使用 `Two Pointer 方式`查找
 - 參考資料
     - https://studygolang.com/articles/27605
     - https://labuladong.github.io/algo/di-ling-zh-bfe1b/yi-ge-fang-894da/

@@ -1,24 +1,24 @@
 # Intuition
-Method 1. 
+這題就是 [`0001. Two Sum`](https://github.com/POABOB/leetcode/tree/main/0015.%203Sum) 的進階版，暴力解已經不能使用了一定會爆開，參考 `排序後二元搜尋` 方法後，其實我們只需要在 `Two Sum` 外層加一個迴圈，這樣就可以計算到 `三數之和`。
 
-1. 先將陣列進行排序
-2. 使用迴圈定位 `index` 作為基準
-3. 再使用 `start`、`end` 來在第二個迴圈之中比較與 `index` 的元素之和是否為 `target(0)`
-	- 如果 `start`，與遍歷的前一次(`start-1`)元素相同，那就直接 `start++` 不處理
-	- 如果 `end`，與遍歷的前一次(`end+1`)元素相同，那就直接 `end--` 不處理
-4. 再來比較總和如果 > `target`，代表要 `end--`，反之 `start++`。如果總和 == `target`，`end--`與`start++`都要
-
-Method 2. 
-
-1. 先將陣列進行排序
-2. 執行 `nSum`
-	- 設定終止條件，當 `n < 2`，代表沒有元素可以遍歷，返回 `res`。
-	- 如果 `n = 2`，我們可以使用 `Tow Pointer` 的方式來解決。
-	- 如果 `n > 2`，在每次迴圈中找出 `target - 當前元素`，之後使用遞迴的方式執行 `nSum(nums, n - 1, i + 1, target)`，直到 `n = 2` 的時候，找回符合的元素。
+> 其實還需要特別注意到的一點就是，如果 `三數` 也有可能遇到重複的組合，需要特別排除。
 
 <!-- Describe your first thoughts on how to solve this problem. -->
 
 # Approach
+- `Method 1.` 
+	1. 先將陣列進行排序
+	2. 使用迴圈定位 `index` 作為基準
+	3. 再使用 `start`、`end` 來在第二個迴圈之中比較與 `index` 的元素之和是否為 `target(0)`
+		- 如果 `start`，與遍歷的前一次(`start-1`)元素相同，那就直接 `start++` 不處理
+		- 如果 `end`，與遍歷的前一次(`end+1`)元素相同，那就直接 `end--` 不處理
+	4. 再來比較總和如果 > `target`，代表要 `end--`，反之 `start++`。如果總和 == `target`，`end--`與`start++`都要
+- `Method 2.` 
+	1. 先將陣列進行排序
+	2. 執行 `nSum`
+		- 設定終止條件，當 `n < 2`，代表沒有元素可以遍歷，返回 `res`。
+		- 如果 `n = 2`，我們可以使用 `Tow Pointer` 的方式來解決。
+		- 如果 `n > 2`，在每次迴圈中找出 `target - 當前元素`，之後使用遞迴的方式執行 `nSum(nums, n - 1, i + 1, target)`，直到 `n = 2` 的時候，找回符合的元素。
 - 參考資料
     - https://github.com/labuladong/fucking-algorithm/discussions/1021
     - https://github.com/halfrost/LeetCode-Go/blob/master/leetcode/0015.3Sum/15.%203Sum.go

@@ -1,19 +1,19 @@
 # Intuition
-Method 1. 
-
-這題思路與[0015. 3Sum](https://github.com/POABOB/leetcode/tree/main/0015.%203Sum)相同，只不過多一層需要處理而已。
-
-Method 2. 
-
-1. 先將陣列進行排序
-2. 執行 `nSum`
-	- 設定終止條件，當 `n < 2`，代表沒有元素可以遍歷，返回 `res`。
-	- 如果 `n = 2`，我們可以使用 `Tow Pointer` 的方式來解決。
-	- 如果 `n > 2`，在每次迴圈中找出 `target - 當前元素`，之後使用遞迴的方式執行 `nSum(nums, n - 1, i + 1, target)`，直到 `n = 2` 的時候，找回符合的元素。
+這題思路與 [`0015. 3Sum`](https://github.com/POABOB/leetcode/tree/main/0015.%203Sum) 相同，只不過多一層需要處理，並避免重複。
 
 <!-- Describe your first thoughts on how to solve this problem. -->
 
 # Approach
+- `Method 1.` 
+	- `第一層迴圈`：`i` 從 `0~(length - 3)` (還有`其他 3 個數`) 遍歷，如果 `nums[i]+nums[i+1]+nums[i+2]+nums[i+3] <= target` 代表 `i` 有機會找到 `target`，超過就`大於target`
+	- `第二層迴圈`：`j` 從 `(i + 1)~(length - 2)` (`不可以與i重複`)，迴圈執行條件與第一層邏輯相同
+	- `第三層迴圈`： `Two Sum`，如果 `pointer` 與前一個重複，直接 `++/--` 跳過
+- `Method 2.` 
+	1. 先將陣列進行排序
+	2. 執行 `nSum`
+		- 設定終止條件，當 `n < 2`，代表沒有元素可以遍歷，返回 `res`。
+		- 如果 `n = 2`，我們可以使用 `Tow Pointer` 的方式來解決。
+		- 如果 `n > 2`，在每次迴圈中找出 `target - 當前元素`，之後使用遞迴的方式執行 `nSum(nums, n - 1, i + 1, target)`，直到 `n = 2` 的時候，找回符合的元素。
 - 參考資料
     - https://github.com/labuladong/fucking-algorithm/discussions/1021
     - https://github.com/halfrost/LeetCode-Go/blob/master/leetcode/0018.4Sum/18.%204Sum.go
