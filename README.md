@@ -10,6 +10,7 @@
 |0021|Merge Two Sorted Lists|[Go](https://github.com/POABOB/leetcode/tree/main/0021.%20Merge%20Two%20Sorted%20Lists)|62.8%|Easy||
 |0096|Unique Binary Search Trees|[Go](https://github.com/POABOB/leetcode/tree/main/0096.%20Unique%20Binary%20Search%20Trees)|59.9%|Medium||
 |0167|Two Sum II - Input Array Is Sorted|[Go](https://github.com/POABOB/leetcode/tree/main/0167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted)|60.0%|Medium||
+|0169|Majority Element|[Go](https://github.com/POABOB/leetcode/tree/main/0169.%20Majority%20Element)|46.0%|Medium||
 
 ## 解法公式
 
