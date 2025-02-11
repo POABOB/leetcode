@@ -16,19 +16,17 @@ func removeDuplicates(nums []int) int {
 			count = 1
 		} else {
 			count++
-
-			if count > 2 && now == prev {
-				prev = now
-				continue
-			}
+            if count > 2 {
+                prev = now
+                continue
+            }
 		}
 
-		prev = now
+        prev = now
 		nums[pointer] = now
 		pointer++
 	}
 
 	return pointer
 }
-
 // @lc code=end

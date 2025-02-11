@@ -20,26 +20,50 @@
 package leetcode
 
 func removeDuplicates(nums []int) int {
-	count, prev, now, pointer := 0, -9999, -9999, 0
+	count, prev, pointer := 0, -9999, 0
 
-	for _, v := range nums {
-		now = v
+	for _, now := range nums {
 		if now != prev {
 			count = 1
 		} else {
 			count++
-
-			if count > 2 && now == prev {
-				prev = now
-				continue
-			}
+            if count > 2 {
+                prev = now
+                continue
+            }
 		}
 
-		prev = now
+        prev = now
 		nums[pointer] = now
 		pointer++
 	}
 
 	return pointer
+}
+```
+
+```java
+class Solution {
+	public int removeDuplicates(int[] nums) {
+		int count = 0;
+		int prev = -999999;
+		int pointer = 0;
+		for (int now : nums) {
+			if (now != prev) {
+				count = 1;
+			} else {
+				count++;
+				if (count > 2) {
+					prev = now;
+					continue;
+				}
+			}
+
+			prev = now;
+			nums[pointer] = now;
+			pointer++;
+		}
+		return pointer;
+	}
 }
 ```
