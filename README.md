@@ -14,7 +14,7 @@
 | 0088 | Merge Sorted Array                     |              [Go, Java](https://github.com/POABOB/leetcode/tree/main/0088.%20Merge%20Sorted%20Array)              |   47.23%   |    Easy    ||
 | 0096 | Unique Binary Search Trees             |            [Go](https://github.com/POABOB/leetcode/tree/main/0096.%20Unique%20Binary%20Search%20Trees)            |   59.9%    |   Medium   ||
 | 0167 | Two Sum II - Input Array Is Sorted     |    [Go](https://github.com/POABOB/leetcode/tree/main/0167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted)    |   60.0%    |   Medium   ||
-| 0169 | Majority Element                       |                   [Go](https://github.com/POABOB/leetcode/tree/main/0169.%20Majority%20Element)                   |   46.0%    |   Medium   ||
+| 0169 | Majority Element                       |                [Go, Java](https://github.com/POABOB/leetcode/tree/main/0169.%20Majority%20Element)                |   46.0%    |   Medium   ||
 | 0274 | H-Index                                |                        [Go](https://github.com/POABOB/leetcode/tree/main/0274.%20H-Index)                         |   38.4%    |   Medium   ||
 | 0380 | Insert Delete GetRandom O(1)           |           [Go](https://github.com/POABOB/leetcode/tree/main/0380.%20Insert%20Delete%20GetRandom%20O(1))           |   52.8%    |   Medium   ||
 

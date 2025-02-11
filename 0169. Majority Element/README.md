@@ -72,6 +72,35 @@ func majorityElement(nums []int) int {
 }
 ```
 
+```java
+class Solution {
+    public int majorityElement(int[] nums) {
+        int candicate = 0;
+        int vote = 0;
 
+        // 先讓競選人彼此的票互相抵銷，直到剩下最後一個候選人
+        for (int num : nums) {
+            if (candicate == num) {
+                vote++;
+            } else if (vote == 0) {
+                candicate = num;
+                vote = 1;
+            } else {
+                vote--;
+            }
+        }
 
-
+        // 統計剩下候選人票數是否過半
+        vote = 0;
+        for (int num : nums) {
+            if (candicate == num) {
+                vote++;
+            }
+        }
+        if (vote > nums.length / 2) {
+            return candicate;
+        }
+        return -1;
+    }
+}
+```
