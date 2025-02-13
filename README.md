@@ -13,7 +13,8 @@
 | 0080 | Remove Duplicates from Sorted Array II | [Go, Java](https://github.com/POABOB/leetcode/tree/main/0080.%20Remove%20Duplicates%20from%20Sorted%20Array%20II) |   53.6%    |   Medium   |           |
 | 0088 | Merge Sorted Array                     |              [Go, Java](https://github.com/POABOB/leetcode/tree/main/0088.%20Merge%20Sorted%20Array)              |   47.23%   |    Easy    |           |
 | 0096 | Unique Binary Search Trees             |            [Go](https://github.com/POABOB/leetcode/tree/main/0096.%20Unique%20Binary%20Search%20Trees)            |   59.9%    |   Medium   |           |
-| 0121 | Best Time to Buy and Sell Stock        |   [Go, Java](https://github.com/POABOB/leetcode/tree/main/0122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock)    |   54.7%    |    Easy    |           |
+| 0121 | Best Time to Buy and Sell Stock        |   [Go, Java](https://github.com/POABOB/leetcode/tree/main/0121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock)    |   54.7%    |    Easy    |           |
+| 0122 | Best Time to Buy and Sell Stock II     | [Go, Java](https://github.com/POABOB/leetcode/tree/main/0122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II) |   68.7%    |   Medium   |           |
 | 0167 | Two Sum II - Input Array Is Sorted     |    [Go](https://github.com/POABOB/leetcode/tree/main/0167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted)    |   60.0%    |   Medium   |           |
 | 0169 | Majority Element                       |                [Go, Java](https://github.com/POABOB/leetcode/tree/main/0169.%20Majority%20Element)                |   46.0%    |   Medium   |           |
 | 0189 | Rotate Array                           |                  [Go, Java](https://github.com/POABOB/leetcode/tree/main/0189.%20Rotate%20Array)                  |   39.56%   |   Medium   |           |
