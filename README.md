@@ -18,6 +18,7 @@
 | 0123 | Best Time to Buy and Sell Stock III    | [Go, Java](https://github.com/POABOB/leetcode/tree/main/0123.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III) |   50.1%    |    Hard    |           |
 | 0167 | Two Sum II - Input Array Is Sorted     |    [Go](https://github.com/POABOB/leetcode/tree/main/0167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted)     |   60.0%    |   Medium   |           |
 | 0169 | Majority Element                       |                [Go, Java](https://github.com/POABOB/leetcode/tree/main/0169.%20Majority%20Element)                 |   46.0%    |   Medium   |           |
+| 0188 | Best Time to Buy and Sell Stock IV     | [Go, Java](https://github.com/POABOB/leetcode/tree/main/0188.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20IV)  |   45.8%    |    Hard    |           |
 | 0189 | Rotate Array                           |                  [Go, Java](https://github.com/POABOB/leetcode/tree/main/0189.%20Rotate%20Array)                   |   39.56%   |   Medium   |           |
 | 0274 | H-Index                                |                         [Go](https://github.com/POABOB/leetcode/tree/main/0274.%20H-Index)                         |   38.4%    |   Medium   |           |
 | 0380 | Insert Delete GetRandom O(1)           |           [Go](https://github.com/POABOB/leetcode/tree/main/0380.%20Insert%20Delete%20GetRandom%20O(1))            |   52.8%    |   Medium   |           |
