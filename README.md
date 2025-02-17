@@ -5,6 +5,7 @@
 | No.  | Title                                  |                                                      Solution                                                      | Acceptance | Difficulty | Frequency |
 |:----:|:---------------------------------------|:------------------------------------------------------------------------------------------------------------------:|:----------:|:----------:|:---------:|
 | 0001 | Two Sum                                |                        [Go](https://github.com/POABOB/leetcode/tree/main/0001.%20Two%20Sum)                        |   50.1%    |    Easy    |           |
+| 0012 | Integer to Roman                       |               [Go, Java](https://github.com/POABOB/leetcode/tree/main/0012.%20Integer%20to%20Roman)                |   67.7%    |   Medium   |           |
 | 0013 | Roman to Integer                       |               [Go, Java](https://github.com/POABOB/leetcode/tree/main/0013.%20Roman%20to%20Integer)                |   64.0%    |    Easy    |           |
 | 0015 | 3Sum                                   |                          [Go](https://github.com/POABOB/leetcode/tree/main/0015.%203Sum)                           |   32.8%    |   Medium   |           |
 | 0018 | 4Sum                                   |                          [Go](https://github.com/POABOB/leetcode/tree/main/0018.%204Sum)                           |   36.5%    |   Medium   |           |
