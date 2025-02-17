@@ -14,6 +14,7 @@
 | 0027 | Remove Element                         |                 [Go, Java](https://github.com/POABOB/leetcode/tree/main/0027.%20Remove%20Element)                  |   53.58%   |    Easy    |           |
 | 0045 | Jump Game II                           |                 [Go, Java](https://github.com/POABOB/leetcode/tree/main/0045.%20Jump%20Game%20II)                  |   41.1%    |   Medium   |           |
 | 0055 | Jump Game                              |                    [Go, Java](https://github.com/POABOB/leetcode/tree/main/0055.%20Jump%20Game)                    |   39.1%    |   Medium   |           |
+| 0058 | Length of Last Word                    |             [Go, Java](https://github.com/POABOB/leetcode/tree/main/0058.%20Length%20of%20Last%20Word)             |   55.3%    |    Easy    |           |
 | 0080 | Remove Duplicates from Sorted Array II | [Go, Java](https://github.com/POABOB/leetcode/tree/main/0080.%20Remove%20Duplicates%20from%20Sorted%20Array%20II)  |   53.6%    |   Medium   |           |
 | 0088 | Merge Sorted Array                     |              [Go, Java](https://github.com/POABOB/leetcode/tree/main/0088.%20Merge%20Sorted%20Array)               |   47.23%   |    Easy    |           |
 | 0096 | Unique Binary Search Trees             |            [Go](https://github.com/POABOB/leetcode/tree/main/0096.%20Unique%20Binary%20Search%20Trees)             |   59.9%    |   Medium   |           |
