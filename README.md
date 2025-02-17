@@ -12,6 +12,7 @@
 | 0021 | Merge Two Sorted Lists                 |              [Go](https://github.com/POABOB/leetcode/tree/main/0021.%20Merge%20Two%20Sorted%20Lists)               |   62.8%    |    Easy    |           |
 | 0026 | Remove Duplicates from Sorted Array    |    [Go, Java](https://github.com/POABOB/leetcode/tree/main/0026.%20Remove%20Duplicates%20from%20Sorted%20Array)    |   59.2%    |    Easy    |           |
 | 0027 | Remove Element                         |                 [Go, Java](https://github.com/POABOB/leetcode/tree/main/0027.%20Remove%20Element)                  |   53.58%   |    Easy    |           |
+| 0045 | Jump Game II                           |                 [Go, Java](https://github.com/POABOB/leetcode/tree/main/0045.%20Jump%20Game%20II)                  |   41.1%    |   Medium   |           |
 | 0055 | Jump Game                              |                    [Go, Java](https://github.com/POABOB/leetcode/tree/main/0055.%20Jump%20Game)                    |   39.1%    |   Medium   |           |
 | 0080 | Remove Duplicates from Sorted Array II | [Go, Java](https://github.com/POABOB/leetcode/tree/main/0080.%20Remove%20Duplicates%20from%20Sorted%20Array%20II)  |   53.6%    |   Medium   |           |
 | 0088 | Merge Sorted Array                     |              [Go, Java](https://github.com/POABOB/leetcode/tree/main/0088.%20Merge%20Sorted%20Array)               |   47.23%   |    Easy    |           |
