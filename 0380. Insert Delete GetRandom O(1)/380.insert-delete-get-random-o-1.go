@@ -17,7 +17,7 @@ type RandomizedSet struct {
 func Constructor() RandomizedSet {
 	return RandomizedSet{
 		hashmap: make(map[int]int),
-		arr:     []int{},
+		arr:     make([]int, 0),
 	}
 }
 
@@ -31,14 +31,14 @@ func (this *RandomizedSet) Insert(val int) bool {
 }
 
 func (this *RandomizedSet) Remove(val int) bool {
-	if val_index, ok := this.hashmap[val]; ok {
-		last_index := len(this.arr) - 1
+	if valIndex, ok := this.hashmap[val]; ok {
+		lastIndex := len(this.arr) - 1
 
 		// 把 hashmap 中 index 對調
-		this.hashmap[this.arr[last_index]] = val_index
+		this.hashmap[this.arr[lastIndex]] = valIndex
 		// 把 arr SWAP
-		this.arr[val_index], this.arr[last_index] = this.arr[last_index], this.arr[val_index]
-		this.arr = this.arr[:last_index]
+		this.arr[valIndex], this.arr[lastIndex] = this.arr[lastIndex], this.arr[valIndex]
+		this.arr = this.arr[:lastIndex]
 
 		delete(this.hashmap, val)
 		return true

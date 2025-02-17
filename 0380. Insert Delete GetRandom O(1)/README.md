@@ -30,7 +30,7 @@ type RandomizedSet struct {
 func Constructor() RandomizedSet {
 	return RandomizedSet{
 		hashmap: make(map[int]int),
-		arr:     []int{},
+		arr:     make([]int, 0),
 	}
 }
 
@@ -44,14 +44,14 @@ func (this *RandomizedSet) Insert(val int) bool {
 }
 
 func (this *RandomizedSet) Remove(val int) bool {
-	if val_index, ok := this.hashmap[val]; ok {
-		last_index := len(this.arr) - 1
+	if valIndex, ok := this.hashmap[val]; ok {
+		lastIndex := len(this.arr) - 1
 
 		// 把 hashmap 中 index 對調
-		this.hashmap[this.arr[last_index]] = val_index
+		this.hashmap[this.arr[lastIndex]] = valIndex
 		// 把 arr SWAP
-		this.arr[val_index], this.arr[last_index] = this.arr[last_index], this.arr[val_index]
-		this.arr = this.arr[:last_index]
+		this.arr[valIndex], this.arr[lastIndex] = this.arr[lastIndex], this.arr[valIndex]
+		this.arr = this.arr[:lastIndex]
 
 		delete(this.hashmap, val)
 		return true
@@ -61,5 +61,51 @@ func (this *RandomizedSet) Remove(val int) bool {
 
 func (this *RandomizedSet) GetRandom() int {
 	return this.arr[rand.Intn(len(this.arr))]
+}
+```
+
+```java
+class RandomizedSet {
+
+    private Map<Integer, Integer> hashmap;
+    private List<Integer> arr;
+
+    public RandomizedSet() {
+        hashmap = new HashMap<>();
+        arr = new ArrayList();
+    }
+
+    public boolean insert(int val) {
+        Integer valIndex = hashmap.get(val);
+        if (valIndex != null) {
+            return false;
+        }
+        arr.add(val);
+        hashmap.put(val, arr.size() - 1);
+        return true;
+    }
+
+    public boolean remove(int val) {
+        Integer valIndex = hashmap.get(val);
+        if (valIndex == null) {
+            return false;
+        }
+        int lastIndex = arr.size() - 1;
+
+        // SWAP
+        int lastElement = arr.get(lastIndex);
+        arr.set(lastIndex, arr.get(valIndex));
+        arr.set(valIndex, lastElement);
+        // Remove last one element
+        arr.remove(arr.size() - 1);
+        // Remove element from Map
+        hashmap.put(lastElement, valIndex);
+        hashmap.remove(val);
+        return true;
+    }
+
+    public int getRandom() {
+        return arr.get((int) (Math.random() * arr.size()));
+    }
 }
 ```
