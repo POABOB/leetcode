@@ -31,6 +31,7 @@
 | 0238 | Product of Array Except Self           |       [Go, Java](https://github.com/POABOB/leetcode/tree/main/0238.%20Product%20of%20Array%20Except%20Self)        |   67.3%    |   Medium   |           |
 | 0274 | H-Index                                |                      [Go, Java](https://github.com/POABOB/leetcode/tree/main/0274.%20H-Index)                      |   38.4%    |   Medium   |           |
 | 0380 | Insert Delete GetRandom O(1)           |        [Go, Java](https://github.com/POABOB/leetcode/tree/main/0380.%20Insert%20Delete%20GetRandom%20O(1))         |   52.8%    |   Medium   |           |
+| 0392 | Is Subsequence                         |                 [Go, Java](https://github.com/POABOB/leetcode/tree/main/0392.%20Is%20Subsequence)                  |   48.2%    |    Easy    |           |
 
 ## 解法公式
 
