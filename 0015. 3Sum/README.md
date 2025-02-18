@@ -135,3 +135,41 @@ func nSum(nums []int, n int, start int, target int) [][]int {
 	return res
 }
 ```
+
+```java
+class Solution {
+    public List<List<Integer>> threeSum(int[] nums) {
+        Arrays.sort(nums);
+        int n = nums.length;
+        List<List<Integer>> ans = new ArrayList<>();
+        for (int index = 0; index < n - 2; index++) {
+            int start = index + 1;
+            int end = n - 1;
+            if (index > 0 && nums[index] == nums[index - 1]) {
+                continue;
+            }
+
+            while (end > start) {
+                int sum = nums[index] + nums[start] + nums[end];
+                if (sum == 0) {
+                    ans.add(List.of(nums[index], nums[start], nums[end]));
+                    start++;
+                    end--;
+
+                    while (end > start && nums[start] == nums[start - 1]) {
+                        start++;
+                    }
+                    while (end > start && nums[end] == nums[end + 1]) {
+                        end--;
+                    }
+                } else if (sum > 0) {
+                    end--;
+                } else {
+                    start++;
+                }
+            }
+        }
+        return ans;
+    }
+}
+```

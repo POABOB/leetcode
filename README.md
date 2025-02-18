@@ -8,7 +8,7 @@
 | 0012 | Integer to Roman                       |               [Go, Java](https://github.com/POABOB/leetcode/tree/main/0012.%20Integer%20to%20Roman)                |   67.7%    |   Medium   |           |
 | 0013 | Roman to Integer                       |               [Go, Java](https://github.com/POABOB/leetcode/tree/main/0013.%20Roman%20to%20Integer)                |   64.0%    |    Easy    |           |
 | 0014 | Longest Common Prefix                  |             [Go, Java](https://github.com/POABOB/leetcode/tree/main/0014.%20Longest%20Common%20Prefix)             |   44.8%    |    Easy    |           |
-| 0015 | 3Sum                                   |                          [Go](https://github.com/POABOB/leetcode/tree/main/0015.%203Sum)                           |   32.8%    |   Medium   |           |
+| 0015 | 3Sum                                   |                       [Go, Java](https://github.com/POABOB/leetcode/tree/main/0015.%203Sum)                        |   36.3%    |   Medium   |           |
 | 0018 | 4Sum                                   |                          [Go](https://github.com/POABOB/leetcode/tree/main/0018.%204Sum)                           |   36.5%    |   Medium   |           |
 | 0021 | Merge Two Sorted Lists                 |              [Go](https://github.com/POABOB/leetcode/tree/main/0021.%20Merge%20Two%20Sorted%20Lists)               |   62.8%    |    Easy    |           |
 | 0026 | Remove Duplicates from Sorted Array    |    [Go, Java](https://github.com/POABOB/leetcode/tree/main/0026.%20Remove%20Duplicates%20from%20Sorted%20Array)    |   59.2%    |    Easy    |           |
