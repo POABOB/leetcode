@@ -22,6 +22,7 @@
 | 0121 | Best Time to Buy and Sell Stock        |    [Go, Java](https://github.com/POABOB/leetcode/tree/main/0121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock)    |   54.7%    |    Easy    |           |
 | 0122 | Best Time to Buy and Sell Stock II     | [Go, Java](https://github.com/POABOB/leetcode/tree/main/0122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II)  |   68.7%    |   Medium   |           |
 | 0123 | Best Time to Buy and Sell Stock III    | [Go, Java](https://github.com/POABOB/leetcode/tree/main/0123.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III) |   50.1%    |    Hard    |           |
+| 0125 | Valid Palindrome                       |                [Go, Java](https://github.com/POABOB/leetcode/tree/main/0125.%20Valid%20Palindrome)                 |   50.0%    |    Easy    |           |
 | 0134 | Gas Station                            |                   [Go, Java](https://github.com/POABOB/leetcode/tree/main/0134.%20Gas%20Station)                   |   45.9%    |   Medium   |           |
 | 0167 | Two Sum II - Input Array Is Sorted     |    [Go](https://github.com/POABOB/leetcode/tree/main/0167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted)     |   60.0%    |   Medium   |           |
 | 0169 | Majority Element                       |                [Go, Java](https://github.com/POABOB/leetcode/tree/main/0169.%20Majority%20Element)                 |   46.0%    |   Medium   |           |
