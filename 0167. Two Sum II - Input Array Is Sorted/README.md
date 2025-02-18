@@ -14,7 +14,7 @@
 # Complexity
 - Time complexity
     - Method 1. O(n)
-    - Method 2. O(logn)
+    - Method 2. O(n)
 <!-- Add your time complexity here, e.g. $$O(n)$$ -->
 
 - Space complexity 
@@ -55,5 +55,24 @@ func twoSum(numbers []int, target int) []int {
 		}
 	}
 	return nil
+}
+```
+```java
+class Solution {
+    public int[] twoSum(int[] numbers, int target) {
+        int start = 0;
+        int end = numbers.length - 1;
+        while (end > start) {
+            int sum = numbers[start] + numbers[end];
+            if (sum > target) {
+                end--;
+            } else if (sum < target) {
+                start++;
+            } else {
+                return new int[]{start + 1, end + 1};
+            }
+        }
+        return null;
+    }
 }
 ```
