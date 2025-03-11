@@ -88,3 +88,76 @@ func validDirection(x, y int, board [][]byte, direction int) bool {
 	return true
 }
 ```
+```java
+import java.util.HashSet;
+import java.util.Set;
+
+public class Solution {
+    public boolean isValidSudoku(char[][] board) {
+        // 檢查每一列與每一行
+        for (int i = 0; i < 9; i++) {
+            if (!validDirection(i, i, board, 0)) {  // 檢查橫向
+                return false;
+            }
+            if (!validDirection(i, i, board, 1)) {  // 檢查縱向
+                return false;
+            }
+        }
+
+        // 檢查每個 3x3 方格
+        for (int i = 0; i < 9; i += 3) {
+            for (int j = 0; j < 9; j += 3) {
+                if (!valid3x3(i, j, board)) {  // 檢查 3x3 方格
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+
+    private boolean valid3x3(int x, int y, char[][] board) {
+        Set<Character> hashSet = new HashSet<>();
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                char num = board[y + i][x + j];
+                if (num == '.') {
+                    continue;
+                }
+                if (hashSet.contains(num)) {
+                    return false;
+                }
+                hashSet.add(num);
+            }
+        }
+        return true;
+    }
+
+    private boolean validDirection(int x, int y, char[][] board, int direction) {
+        HashSet<Character> hashSet = new HashSet<>();
+        if (direction == 0) {  // 檢查橫向
+            for (int i = 0; i < 9; i++) {
+                char num = board[y][i];
+                if (num == '.') {
+                    continue;
+                }
+                if (hashSet.contains(num)) {
+                    return false;
+                }
+                hashSet.add(num);
+            }
+        } else {  // 檢查縱向
+            for (int i = 0; i < 9; i++) {
+                char num = board[i][x];
+                if (num == '.') {
+                    continue;
+                }
+                if (hashSet.contains(num)) {
+                    return false;
+                }
+                hashSet.add(num);
+            }
+        }
+        return true;
+    }
+}
+```
