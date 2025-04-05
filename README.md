@@ -78,6 +78,7 @@
 | 0380 | Insert Delete GetRandom O(1)                               |                    [Go, Java](https://github.com/POABOB/leetcode/tree/main/0380.%20Insert%20Delete%20GetRandom%20O(1))                    |   52.8%    |   Medium   |           |
 | 0383 | Ransom Note                                                |                              [Go, Java](https://github.com/POABOB/leetcode/tree/main/0383.%20Ransom%20Note)                               |   63.9%    |    Easy    |           |
 | 0392 | Is Subsequence                                             |                             [Go, Java](https://github.com/POABOB/leetcode/tree/main/0392.%20Is%20Subsequence)                             |   48.2%    |    Easy    |           |
+| 0427 | Construct Quad Tree                                        |                         [Go, Java](https://github.com/POABOB/leetcode/tree/main/0427.%20Construct%20Quad%20Tree)                          |   76.8%    |   Medium   |           |
 
 ## 解法公式
 
